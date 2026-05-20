@@ -16,3 +16,25 @@ const myfunc = function(){
     console.log("Hello World");
 }
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "RajKachhadiyadotcom"
+
+let anotherName = myYoutubeName
+anotherName = "RajOnKeys" 
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne ={
+    name:"RAJ",
+    email:"kachhadiyaraj76@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.name="Hetvi"
+
+console.log(userTwo)
